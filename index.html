@@ -1,21 +1,89 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
     <style>
-      body{
-       background: linear-gradient(to bottom, yellow, pink, pink);
-       color: black;
-       text-align: center;
-       display:grid;
-       place-items:center;
-     }
-   </style>
- </head>
- <body>
-   <h1>Aizhigitova's Portfolio</h1>
-   <h2> Baking, coding, and tunes that flow—Meerim’s portfolio steals the show </h2>
-   <img src="media/globalGoals.png">
-   <h3>I created the above splashscreen in Python. I created the code</h3>
-   <h3>Below is some of my codes from the Python splashscreen</h3>
-   <img src="media/code.png">
- </body>
+        /* Basic Reset for Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #007BFF;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 10px;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #0056b3;
+        }
+
+        .content {
+            padding: 30px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Site</h1>
+        <p>Learn more about each unit</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="unit2.html">Unit 2</a>
+        <a href="unit3.html">Unit 3</a>
+    </nav>
+
+    <div class="content">
+        <h2>Welcome to the Homepage</h2>
+        <p>This is where you'll find links to various units.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Your Website | All Rights Reserved</p>
+    </footer>
+
+</body>
 </html>
